@@ -1,0 +1,29 @@
+{
+  "author": "Moop",
+  "license": "ISC",
+  "name": "update-git-origin",
+  "version": "1.0.0",
+  "description": "Updates Git Origins",
+  "bin": {
+    "update-git-origin": "bin/update-git-origin.js"
+  },
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "node ./bin/update-git-origin.js"
+  },
+  "preferGlobal": "true",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "fs": "0.0.1-security",
+    "inquirer": "^3.0.6"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moop6535/update-git-origin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/moop6535/update-git-origin/issues"
+  },
+  "homepage": "https://github.com/moop6535/update-git-origin#readme"
+}

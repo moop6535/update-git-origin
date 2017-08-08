@@ -1,0 +1,28 @@
+Update Git Origin
+========================
+This module was built to replace .git/config origins. Designed to be used in a directory that contains git repos 
+
+i.e. a Projects/ directory like so:
+```
+Projects/
+--myCoolWebsite/.git/config
+--anotherProject/.git/config
+--dirWithoutGit/
+--someOtherProject/.git/config
+...etc...
+```
+Example:
+=========
+
+To install:  
+`npm i -g update-git-origin`
+
+Traverse to a directory containing repos you'd like to change:  
+`cd Projects/`   
+`update-git-origin`
+
+Prompt:   
+`? Enter Old (Current) Git Origin:` git.example.com   
+`? Enter New Git Origin:` git-new.example.com   
+   
+It will iterate through the directories (1 deep) and update the origins. While it is not often that you change git origins, It made my life easier when changing private hosted git domains so why not.
