@@ -2,7 +2,6 @@ Update Git Origin
 ========================
 
 [![npm](https://img.shields.io/npm/dt/update-git-origin.svg?style=flat-square&label=npm%20downloads)](https://www.npmjs.com/package/update-git-origin)
-[![Software License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](https://raw.githubusercontent.com/techpivot/phalcon-ci-installer/master/LICENSE)
 
 
 This module was built to replace .git/config origins. Designed to be used in a directory that contains git repos 
