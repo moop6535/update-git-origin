@@ -13,9 +13,9 @@
   },
   "preferGlobal": "true",
   "dependencies": {
-    "colors": "^1.1.2",
-    "fs": "0.0.1-security",
-    "inquirer": "^3.0.6"
+    "colors": "*",
+    "fs": "*",
+    "inquirer": "*"
   },
   "devDependencies": {},
   "repository": {
